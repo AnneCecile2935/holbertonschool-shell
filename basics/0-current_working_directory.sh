@@ -1,1 +1,2 @@
-echo $PATH
+#!/bin/bash
+echo "$(pwd)"
