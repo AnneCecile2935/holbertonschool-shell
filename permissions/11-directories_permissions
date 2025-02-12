@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a+X /holbertonschool-shell/permissions
+chmod -R a+X permissions
