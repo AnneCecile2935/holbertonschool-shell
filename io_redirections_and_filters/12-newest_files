@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -tr | tail
+ls -tr | head -10
