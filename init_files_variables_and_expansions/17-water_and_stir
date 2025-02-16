@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(($(water_in_base10=$WATER) + $(stir_in_base10=$STIR)))"
