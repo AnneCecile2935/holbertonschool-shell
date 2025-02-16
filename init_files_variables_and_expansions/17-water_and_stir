@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(($(water_in_base10=$WATER) + $(stir_in_base10=$STIR)))"
+$(( 5#`echo $WATER | tr water 01234` + 5#`echo $STIR | tr '''stir.''' 01234` )) | tr 01234567 bestchol
